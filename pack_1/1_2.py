@@ -16,3 +16,4 @@ def z2():
         return('true')
     else:
         return('false')
+z2()

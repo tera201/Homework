@@ -12,3 +12,4 @@ def arifmetic(a,b,c):
             print("на 0 делить не стоит")
     else:
         return("Неизвестная операция")
+arifmetic(int(input("число 1 = ")),int(input("чиcло 2 = ")),input("действие "))

@@ -17,3 +17,4 @@ def z1():
         for i in range(2, a + 1):
             n *= i
         print(n, " ", time.time() - c)
+z1()
