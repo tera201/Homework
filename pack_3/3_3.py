@@ -1,12 +1,17 @@
 import math
-class Circle():
+class ConvexFigure:
+    def getArea(self):
+        pass
+    def getPerimeter(self):
+        pass
+class Circle(ConvexFigure):
     def __init__(self,r):
         self.r=r
     def P(self):
         return 2*math.pi*self.r
     def S(self):
         return math.pi*(self.r**2)
-class Rectangle():
+class Rectangle(ConvexFigure):
     def __init__(self,l,w):
         self.l=l
         self.w=w
